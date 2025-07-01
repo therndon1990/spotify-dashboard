@@ -1,0 +1,27 @@
+[global]
+# Cloud optimization settings
+developmentMode = false
+logLevel = "warning"
+
+[server]
+# Performance optimizations
+maxUploadSize = 200
+maxMessageSize = 200
+enableCORS = true
+enableXsrfProtection = true
+
+[client]
+# UI optimizations
+showErrorDetails = false
+toolbarMode = "minimal"
+
+[theme]
+# Spotify theme
+primaryColor = "#1DB954"
+backgroundColor = "#121212"
+secondaryBackgroundColor = "#191414"
+textColor = "#FFFFFF"
+
+[browser]
+# Performance settings
+gatherUsageStats = false 
